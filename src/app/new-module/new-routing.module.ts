@@ -5,7 +5,11 @@ import { SecondPageComponent } from './second-page/second-page.component';
 const routes: Routes = [
   {
     path:'',
-    component:SecondPageComponent
+    component:SecondPageComponent,
+  },
+  {
+    path:'/:id',
+    component:SecondPageComponent,
   }
 ];
 
